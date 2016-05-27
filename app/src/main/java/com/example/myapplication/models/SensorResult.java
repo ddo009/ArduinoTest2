@@ -5,6 +5,15 @@ package com.example.myapplication.models;
  */
 public class SensorResult {
     private int moisture;
+    private int illumination;
+
+    public int getIllumination() {
+        return illumination;
+    }
+
+    public void setIllumination(int illumination) {
+        this.illumination = illumination;
+    }
 
     public int getMoisture() {
         return moisture;
@@ -12,5 +21,5 @@ public class SensorResult {
 
     public void setMoisture(int moisture) {
         this.moisture = moisture;
-      }
     }
+}

@@ -12,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:max="100"
-        android:progress="100" />
+        android:progress="100"
+        android:progressTint="#ffffff" />
 
     <TextView
         android:layout_width="match_parent"
@@ -27,13 +28,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:max="100"
-        android:progress="100" />
+        android:progress="100"
+        android:progressTint="#ffffff" />
 
     <TextView
-        android:layout_marginTop="60dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="60dp"
         android:text="수분"
         android:textColor="#f8faf9"
         android:textSize="60sp" />

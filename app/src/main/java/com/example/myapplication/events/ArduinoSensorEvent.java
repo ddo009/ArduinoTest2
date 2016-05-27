@@ -5,4 +5,5 @@ package com.example.myapplication.events;
  */
 public class ArduinoSensorEvent {
    public int moisture;
+   public int illumination;
 }

@@ -12,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:max="100"
-        android:progress="100" />
+        android:progress="100"
+        android:progressTint="#ffffff" />
 
     <TextView
         android:layout_width="match_parent"
@@ -27,7 +28,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:max="100"
-        android:progress="100" />
+        android:progress="100"
+        android:progressTint="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -58,19 +60,5 @@
             android:textSize="60sp" />
 
     </FrameLayout>
-
-    <TextView
-        android:id="@+id/result_txt_bar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="부족" />
-
-    <ProgressBar
-        android:id="@+id/result_bar"
-        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:max="950"
-        android:progress="0" />
 
 </LinearLayout>

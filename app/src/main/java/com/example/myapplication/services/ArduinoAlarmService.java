@@ -66,6 +66,7 @@ public class ArduinoAlarmService extends IntentService {
                             // 이벤트 발송
                             ArduinoSensorEvent event = new ArduinoSensorEvent();
                             event.moisture = body.getMoisture();
+                            event.illumination = body.getIllumination();
                             EventBus.getDefault().post(event);
 
                             // 수분 값 300 이하일 때 알림 표시
